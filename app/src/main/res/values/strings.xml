@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">내주위 당구장</string>
+    <string name="subtitle">GPS로 근처 당구장을 찾아보세요</string>
+    <string name="version">버전 1.0</string>
+
+    <!-- MainActivity buttons -->
+    <string name="btn_find_billiard">내 주변 당구장 찾기</string>
+    <string name="btn_exit">종료</string>
+    <string name="btn_allow">허용</string>
+    <string name="btn_cancel">취소</string>
+    <string name="btn_confirm">확인</string>
+
+    <!-- Features -->
+    <string name="feature_gps">GPS로 현재 위치 자동 감지</string>
+    <string name="feature_map">지도에서 근처 당구장 확인</string>
+    <string name="feature_detail">상세 정보 및 전화 연결</string>
+
+    <!-- Permissions -->
+    <string name="permission_required_title">위치 권한 필요</string>
+    <string name="permission_required_message">근처 당구장을 찾으려면 위치 권한이 필요합니다. 위치 권한을 허용해 주세요.</string>
+    <string name="permission_denied_title">위치 권한 거부됨</string>
+    <string name="permission_denied_message">위치 권한이 거부되었습니다. 설정에서 위치 권한을 허용해야 당구장 검색이 가능합니다.</string>
+    <string name="permission_denied_toast">위치 권한 없이는 주변 당구장을 찾을 수 없습니다.</string>
+
+    <!-- MapsActivity -->
+    <string name="searching">주변 당구장 검색 중…</string>
+    <string name="result_count">당구장 %d개 발견</string>
+    <string name="result_count_default">검색 결과</string>
+    <string name="no_billiard_halls">근처에 당구장이 없습니다.</string>
+    <string name="search_error">검색 중 오류가 발생했습니다. 다시 시도해 주세요.</string>
+    <string name="locating">현재 위치 확인 중…</string>
+    <string name="location_not_found">현재 위치를 찾을 수 없습니다.</string>
+    <string name="location_error">위치를 가져오는 데 실패했습니다.</string>
+    <string name="using_default_location">위치를 찾지 못해 기본 위치(서울)로 검색합니다.</string>
+    <string name="fab_my_location">내 위치로 이동</string>
+    <string name="fab_refresh">새로고침</string>
+
+    <!-- Info Window -->
+    <string name="tap_for_details">탭하여 상세 정보 보기 ›</string>
+
+    <!-- Status -->
+    <string name="status_open">영업 중</string>
+    <string name="status_closed">영업 종료</string>
+    <string name="status_unknown">정보 없음</string>
+    <string name="status_icon_desc">영업 상태 아이콘</string>
+
+    <!-- Rating -->
+    <string name="no_rating">평점 없음</string>
+    <string name="ratings_count">리뷰 %d개</string>
+
+    <!-- DetailActivity labels -->
+    <string name="label_address">주소</string>
+    <string name="label_phone">전화번호</string>
+    <string name="label_hours">영업시간</string>
+    <string name="no_phone">전화번호 정보 없음</string>
+
+    <!-- DetailActivity buttons -->
+    <string name="btn_navigate">길 찾기</string>
+    <string name="btn_call">전화</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Outer circle (dark green) -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M48,4 C23.7,4 4,23.7 4,48 C4,72.3 23.7,92 48,92 C72.3,92 92,72.3 92,48 C92,23.7 72.3,4 48,4Z" />
+
+    <!-- Middle circle (green) -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M48,10 C27.0,10 10,27.0 10,48 C10,69.0 27.0,86 48,86 C69.0,86 86,69.0 86,48 C86,27.0 69.0,10 48,10Z" />
+
+    <!-- Billiard ball - white cue ball -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,22 C38.1,22 30,30.1 30,40 C30,49.9 38.1,58 48,58 C57.9,58 66,49.9 66,40 C66,30.1 57.9,22 48,22Z" />
+
+    <!-- Ball shine highlight -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:alpha="0.6"
+        android:pathData="M40,28 C38.5,28 37.2,29.1 37,30.5 C36.8,31.9 37.8,33.1 39.2,33.3 C43.5,33.9 46.5,37.5 46.5,41.8 C46.5,43.2 47.6,44.4 49.0,44.4 C50.4,44.4 51.5,43.2 51.5,41.8 C51.5,34.8 46.5,29.0 40,28Z" />
+
+    <!-- Pool cue stick (horizontal) -->
+    <path
+        android:fillColor="#F57F17"
+        android:pathData="M16,60 L80,60 C81.1,60 82,60.9 82,62 L82,64 C82,65.1 81.1,66 80,66 L16,66 C14.9,66 14,65.1 14,64 L14,62 C14,60.9 14.9,60 16,60Z" />
+
+    <!-- Cue tip (left end) -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M14,60 L20,60 L20,66 L14,66Z" />
+
+    <!-- Stars / sparkles around the ball (decorative) -->
+    <path
+        android:fillColor="#F9A825"
+        android:pathData="M48,14 L49.5,18 L53,16 L51,20 L55,20 L52,23 L54,27 L50,25 L48,29 L46,25 L42,27 L44,23 L41,20 L45,20 L43,16 L47,18Z"
+        android:alpha="0.7" />
+
+</vector>
