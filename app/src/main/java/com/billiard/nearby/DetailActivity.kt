@@ -1,5 +1,6 @@
 package com.billiard.nearby
 
+import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
@@ -110,9 +111,9 @@ class DetailActivity : AppCompatActivity() {
             val uri = Uri.parse("geo:${hall.latitude},${hall.longitude}?q=${Uri.encode(hall.name)}")
             val mapIntent = Intent(Intent.ACTION_VIEW, uri)
             mapIntent.setPackage("com.google.android.apps.maps")
-            if (mapIntent.resolveActivity(packageManager) != null) {
+            try {
                 startActivity(mapIntent)
-            } else {
+            } catch (e: ActivityNotFoundException) {
                 // Fallback: open in browser
                 val browserUri = Uri.parse(
                     "https://maps.google.com/?q=${hall.latitude},${hall.longitude}"

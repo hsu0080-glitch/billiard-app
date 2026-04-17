@@ -21,7 +21,7 @@ class PlacesRepository(private val placesClient: PlacesClient) {
 
     private val placeFields = listOf(
         Place.Field.ID,
-        Place.Field.NAME,
+        Place.Field.DISPLAY_NAME,
         Place.Field.ADDRESS,
         Place.Field.PHONE_NUMBER,
         Place.Field.RATING,
@@ -64,7 +64,7 @@ class PlacesRepository(private val placesClient: PlacesClient) {
     private fun mapPlaceToHall(place: Place): BilliardHall? {
         val latLng = place.latLng ?: return null
         val placeId = place.id ?: return null
-        val name = place.name ?: return null
+        val name = place.displayName ?: return null
 
         val openingHoursList: List<String>? = place.currentOpeningHours?.weekdayText
 
