@@ -9,7 +9,7 @@ android {
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.billiard.nearby"
+        applicationId "com.billiard.myapp"
         minSdk 24
         targetSdk 34
         versionCode 1
